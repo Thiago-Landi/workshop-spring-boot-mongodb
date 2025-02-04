@@ -38,10 +38,13 @@ public class UserService {
 	public User update(String id, User obj) {
 		User user = findById(id);	
 		updateData(user, obj);
+		user.setId(id);
 		return repository.save(user);
 	}
+
 	
 	public void updateData(User newUser, User obj) {
+		newUser.setId(obj.getId());
 		newUser.setName(obj.getName());
 		newUser.setEmail(obj.getEmail());
 	}
