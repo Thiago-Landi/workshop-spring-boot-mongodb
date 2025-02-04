@@ -41,7 +41,6 @@ public class UserService {
 		user.setId(id);
 		return repository.save(user);
 	}
-
 	
 	public void updateData(User newUser, User obj) {
 		newUser.setId(obj.getId());
