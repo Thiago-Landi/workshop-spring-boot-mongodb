@@ -11,8 +11,8 @@ import org.springframework.context.annotation.Configuration;
 import com.thiagolandi.workshopmongo.domain.Post;
 import com.thiagolandi.workshopmongo.domain.User;
 import com.thiagolandi.workshopmongo.dto.AuthorDTO;
-import com.thiagolandi.workshopmongo.repositoy.PostRepository;
-import com.thiagolandi.workshopmongo.repositoy.UserRepository;
+import com.thiagolandi.workshopmongo.repository.PostRepository;
+import com.thiagolandi.workshopmongo.repository.UserRepository;
 
 @Configuration
 public class Instantiation implements CommandLineRunner {

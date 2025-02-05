@@ -1,4 +1,4 @@
-package com.thiagolandi.workshopmongo.repositoy;
+package com.thiagolandi.workshopmongo.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
